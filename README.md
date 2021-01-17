@@ -27,3 +27,15 @@ deno test
 # single
 deno test tests/<테스트명>.ts
 ```
+
+## git push
+
+```bash
+$ git remote -v
+nexters	https://github.com/Nexters-Algorithm-Study/leetcode_typescript.git (fetch)
+nexters	https://github.com/Nexters-Algorithm-Study/leetcode_typescript.git (push)
+origin	https://github.com/minkj1992/leetcode_typescript.git (fetch)
+origin	https://github.com/minkj1992/leetcode_typescript.git (push)
+
+$ git remote | xargs -L1 git push --all # push to all remote repo
+```
