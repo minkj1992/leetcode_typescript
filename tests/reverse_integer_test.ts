@@ -12,7 +12,6 @@ const inAndOut: [number, number][] = [
 
 Deno.test("7. Reverse Integer", () => {
   for (const [input, output] of inAndOut) {
-    logger.info([reverse(input), output]);
     assertEquals(reverse(input), output);
   }
 });
