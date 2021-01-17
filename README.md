@@ -3,7 +3,7 @@
 > leetcode with typescript
 
 This repo project structure is inspired by [axross/
-leetcode-typescript](https://github.com/axross/leetcode-typescript), but source code is [my](github.com/minkj1992) own product.
+leetcode-typescript](https://github.com/axross/leetcode-typescript), but source code is [my](https://github.com/minkj1992) own product.
 
 - [Top 100 Liked Questions](https://leetcode.com/problemset/algorithms/)
 - 🏃‍♀️ Enough small time and space complexity (not "minimum" because of no micro optimization)
